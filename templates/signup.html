@@ -2,4 +2,9 @@
 
 {% block body %}
   <h2>Sign up</h2>
+  <form method="post" novalidate>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Create an account</button>
+  </form>  
 {% endblock %}
