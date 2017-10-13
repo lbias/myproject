@@ -1,5 +1,7 @@
-__pycache__/
-
+__pycache__
+*.pyc
 .DS_Store
-
-*.sqlite3
+*.DS_Store
+db.sqlite3
+*.py[co]
+_build/
