@@ -1,3 +1,7 @@
 # One Board
 
-## Deploying to a VPS (Digital Ocean)
+## Test Account
+
+* http://morva.pythonanywhere.com
+* User name: admin
+* Password: djangoadmin
